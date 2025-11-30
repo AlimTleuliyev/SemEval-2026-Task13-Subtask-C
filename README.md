@@ -6,6 +6,11 @@ This repository contains the code used to classify code snippets as Human, Machi
 - Kaggle competition: https://www.kaggle.com/t/005ab8234f27424aa096b7c00a073722
 - Task website: https://github.com/mbzuai-nlp/SemEval-2026-Task13/
 
+**Leaderboard**
+- Team name: Alim Tleuliyev
+- SemEval-2026 Task 13 ranking: 2nd (as of 30 Nov 2025, 4pm Abu Dhabi)
+- Public test F1: 0.87119
+
 ## Repository Map (tracked)
 - `train.py`: Transformer training/evaluation/prediction with optional class weights, focal loss, and random cropping.
 - `eval.py`: Evaluate saved checkpoints on `test_sample.parquet` and generate `test.parquet` submissions.
